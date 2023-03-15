@@ -1,0 +1,490 @@
+body{
+    margin:0;
+    background-color: white;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.header_main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+
+}
+.headerfirst{
+    position:fixed;
+    width:100%;
+    top:0;
+    right:0;
+   
+
+}
+.headerfirst_image{
+    position: absolute;
+    top: 4px;
+    right: 0;
+    width: 150px;
+    height: 20px;
+    padding-right: 20px;
+    
+}
+
+.header_second{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    padding: 5px;
+}
+.header_second_1_image{
+
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    top: 10px;
+    left:30px;
+}
+.header_second_right{
+    float:right;
+    padding:5px;
+    
+
+}
+.header_second_right_text{
+    top: 15px;
+        position: absolute;
+        margin: 0;
+        right: 50px;
+        color: white;
+        font-size: 20px;
+    
+}
+.header_second_right_image{
+    top: 15px;
+    position: absolute;
+    width: 30px;
+    right: 150px;
+    
+}
+.header_final_section{
+    position: fixed;
+    left: 0px;
+    width: 100%;
+    padding: 4px;
+    background-color: white;
+    top: 100px;
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+
+}
+.header_final_section_links{
+    color: black;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.header_final_section_links_image{
+    width:50px;
+    height: 50px;
+    margin-left:550px;
+    
+}
+#section1{
+    background-image: url("https://hyperlocalcd3.azureedge.net/-/media/images/feature/nexa/channel-specific-global-content/carousels/home-page/desktop/suzuki-connect-nexa.ashx?modified=20220412100704");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:500px;
+    color:black;
+    margin-top:100px;
+
+}
+.section1_image{
+    width: 100%;
+    height:100%;
+}
+
+#section2{
+    width:100%;
+    height:530px;
+    
+    background-color: white;
+    
+}
+.section2_one{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 60px;
+    margin-bottom:40px;
+}
+.section2_one_text{
+font-size: 30px;
+font-weight: lighter;
+}
+.section2_two{
+   display: flex;
+   justify-content: space-evenly;
+
+}
+.section2_two_innerdiv{
+width:100%;
+}
+
+.section2_two_image{
+width:100%;
+
+
+}
+.section2_two_text{
+text-align: center;
+font-size: 18px;
+font-weight:lighter;
+}
+
+
+#section3{
+    width: 90%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.section3_div{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.section3_links_div{
+display:flex;
+font-size: 18px;
+align-items:center;
+}
+.section3_links_image{
+    width:20px;
+    height:20px;
+}
+.section3_links{
+text-decoration: none;
+color: black;
+
+}
+
+#section4{
+    margin-top:60px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section4_outerdiv{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    height: 70px;
+    border-bottom: 7px solid black;
+}
+.section4_div_first{
+    color:white;
+    background-color: black;
+    padding:4px;
+}
+.section4_div_second{
+    color:black;
+}
+
+#section5{
+
+    height:300px;
+    padding:40px 100px ;
+    
+}
+
+.section5_outerdiv{
+width: 100%;
+height: 100%;
+
+
+}
+
+#section5 .grid{
+    display:grid;
+    grid-template-columns:50% 50%;
+    padding:5px;
+    gap:15px;
+   
+}
+
+#section5 .grid_child{
+    width: 100%;
+    height:40px;
+    
+    
+}
+
+#section5 .form_input{
+    width: 90%;
+    height: 90%;
+    padding:5px;
+    border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom:0.5px solid black;
+  font-size:14px
+    
+}
+
+#section5 .flex{
+    margin-top: 15px;
+    width: 90%;
+    padding:5px;
+    height: 20%;
+    margin-bottom: 20px;
+    
+}
+.flex label{
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+#section5 .submit{
+    background-color: #888c8f;
+    padding: 15px;
+    color:white;
+    display: block;
+    margin: auto;
+    width: 100px;
+    border:0;
+}
+#section6{
+    width: 100%;
+    height: 400px;
+    
+    padding:15px;
+    
+
+}
+.section6_heading{
+    text-align: center;
+    font-size:30px;
+}
+
+.section6_grid{
+display: grid;
+color:white;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows:1fr 1fr ;
+width: 100%;
+height: 300px;
+padding: 10px;
+}
+.grid1{
+    font-weight: bold;
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    align-items: flex-end;
+
+
+
+
+}
+.grid2{
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-row-end: 3;
+    grid-column-end: 2;
+    /* grid-area: 1 / 2 / 3 / 2; */
+    width:100%;
+    height:100%;
+    justify-content: center;
+    display:flex;
+    align-items: flex-end;
+}
+#one{
+   background-size: cover;
+   
+    background-image: url("https://hyperlocalcd3.azureedge.net/-/media/images/feature/nexa/channel-specific-global-content/car-accessories/banner-images/led-door-sill-guard.ashx?modified=20230118075807");
+}
+#two{
+    background-size: cover;
+     background-image: url("images/seat.png");
+ }
+ #three{
+    background-size: cover;
+     background-image: url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSES2eBjBDuUGE-wUNgVeukmsvh77wH33mOpAsn_YdFBSUQGwOf");
+ }
+ #four{
+    background-size: cover;
+     background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS52i4H8dF83y38P7lzN-Rorqd2-t9xVNMGFeIHRVeR27-GJeUN");
+ }
+ #five{
+    background-size: cover;
+     background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTTa9X7VVSQNFWYLxF9m_K1e8LEG0W8KeJmbiVQ2VJsbgJJvD8F");
+ }
+ #six{
+    background-size: cover;
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdomJxhFcPIswZlQWMakA_ikiG7Q91so0TLn8MY4DuoF59MvEFk933hSk8YfDOy6m0qbo&usqp=CAU");
+ }
+ #seven{
+    background-size: cover;
+     background-image: url("data:image/jpeg;base64,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");
+ }
+
+
+
+ #section7{
+   display:flex;
+border-bottom: 4px solid black;
+display: flex;
+justify-content: center;
+margin: 50px 0px 0px 0px;
+background-color: #e4e2e2;
+
+ }
+ .section7_div{
+    display: flex;
+    justify-content: space-around;
+    padding:5px;
+ }
+.section7_div_text{
+    font-size: 20px;
+    margin-left:20px;
+}
+
+
+#section8{
+    padding: 40px 30px;
+    background-color: #e4e2e2;
+    text-align: left;
+    
+    
+}
+
+#section8 h2{
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#section8 h4{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top:20px;
+}
+
+#section8 h3{
+    font-weight: lighter;
+}
+
+#section9{
+    margin-top:70px;
+    width:100%;
+    height:300px;
+    
+    
+    
+    
+}
+#section9 h2{
+    text-align: center;
+    font-weight: lighter;
+}
+
+.section9_div{
+    padding:10px;
+}
+.section9_innerdiv{
+    display:flex;
+    width: 100%;
+
+}
+.section9_innerdiv img{
+    width: 30%;
+    height: 100%;
+}
+.section9_innerdiv div{
+    width: 60%;
+    height: 100%;
+}
+footer{
+    width:100%;
+    height: 300px;
+    
+    
+    padding:10px;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.footer_divs{
+    padding:10px;
+    
+}
+.footer_divs h4{
+    margin:0;
+}
+.footer_divs img{
+    width: 80px;
+    height: 80px;
+}
+.footer_divs a{
+   
+    
+    text-decoration: none;
+    color:black;
+    display: block;
+    height: 20px;
+    width: 89px;
+    padding:20px;
+
+}
+
+#review_link{
+    
+    
+    background-color:gray;
+}
+#last_id{
+    padding:0;
+}
+#facebook{
+    width:120px;
+    height:40px;
+    padding:0;
+}
+
+.last{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    margin-top:10px;
+}
+.last #first{
+    
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.last #second{
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* 9895910445  nikhil*/
